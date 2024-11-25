@@ -1,18 +1,30 @@
-# Form Builder test project
+# Form Builder
 
-This project is a test project to demonstrate the use of the form builder without any boilerplate code adn form libraries.
+A dynamic form builder implementation using modern React and TypeScript. This project demonstrates building a flexible form system from scratch without relying on form libraries.
 
-## Technologies used
+## Tech Stack
 
-- React
-- Typescript
-- Tailwind CSS
-- NextUi
-- Framer Motion
-- Date-fns
-- React-query
-- Vite
+- **Core**: Vite + React + TypeScript
+- **State Management**: Custom form state hook
+- **UI Components**: NextUI
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Date Handling**: date-fns
 
-## Description
+## Key Features
 
-Here i used default starter template of Vite with React and Typescript. I have created a form builder which can be used to create forms with different types of fields. Like described before in the tech regiments I don't use any form libraries like Formik or React-hook-form. I have created a custom hook to handle the form state and validation. I have used React-query to handle the form submission and error handling. I have used Tailwind CSS for styling and NextUi for the UI components. I have used Framer Motion for animations. I have used Date-fns for date formatting.
+- Dynamic field generation based on configuration
+- Built-in form validation
+- Custom form state management
+- Responsive design
+- Animated transitions
+- Date field support with formatting
+
+## Implementation Details
+
+Instead of using established form libraries like Formik or React Hook Form, this project implements custom form handling logic to demonstrate:
+
+- Form state management
+- Field validation
+- Error handling
+- Dynamic field rendering
