@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "prettier-plugin-css-order",
+    "prettier-plugin-tailwindcss",
+    "@softonus/prettier-plugin-duplicate-remover",
+    "@softonus/prettier-plugin-whitespace-remover"
+  ],
+  "tailwindFunctions": [
+    "cva",
+    "twMerge",
+    "twJoin"
+  ]
+}
