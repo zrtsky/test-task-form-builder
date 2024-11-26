@@ -2,6 +2,10 @@
 
 A dynamic form builder implementation using modern React and TypeScript. This project demonstrates building a flexible form system from scratch without relying on form libraries.
 
+## Getting Started
+
+1. Transfer the `.env.example` file to `.env` and update the environment variables.
+
 ## Tech Stack
 
 - **Core**: Vite + React + TypeScript
